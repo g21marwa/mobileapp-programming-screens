@@ -7,8 +7,17 @@
     android:layout_height="match_parent"
     tools:context=".SecondaryActivity">
     <TextView
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      android:gravity="center"
-      android:text="@string/secondary_textview_text"/>
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/textSecodary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/secondary_textview_text"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/textSecodary"
+        app:layout_constraintStart_toStartOf="@id/textSecodary"
+        android:id="@+id/recieveText"/>
   </androidx.constraintlayout.widget.ConstraintLayout>
