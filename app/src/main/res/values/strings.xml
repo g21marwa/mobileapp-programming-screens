@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Screens</string>
+    <string name="button_text">Change activity</string>
+    <string name="secondary_textview_text">Secondary activity</string>
 </resources>
