@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 public class SecondaryActivity extends AppCompatActivity {
-    TextView recieve;
+    private TextView recieve;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
